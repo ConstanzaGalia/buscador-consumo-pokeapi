@@ -1,38 +1,52 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+.navbar {
+  background-color: rgb(255, 89, 89);
+}
+.pokebolaNavbar{
+  height: 100px;
+  margin: 30px 60px;
+}
+.titleNavbar{
+  font-size: 40px;
+  margin-top: 40px;
+  font-family: 'Rampart One', cursive;
+}
+.pokeSection{
+  background-color: rgb(45, 136, 197);
+  min-height: 800px;
+}
+.pokeCard {
+  margin: 20px;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  border: none;
+  border-radius: 20px;
+}
+.rowCards {
+  padding: 50px 0px;
+}
+.pokeName {
+  text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btnPagination {
+  background-color: rgb(255, 89, 89);
+  border-radius: 10px;
+  margin: 10px 50px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btnPagination:hover {
+  background-color: rgb(250, 183, 0);
+  color:black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btnPagination:focus {
+  background-color: rgb(250, 183, 0);
+  color:black;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rowInputSearch{
+  padding-top: 30px;
 }
