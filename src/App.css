@@ -50,3 +50,30 @@
 .rowInputSearch{
   padding-top: 30px;
 }
+.namePokemonDetail{
+  margin: 10px;
+  text-transform: uppercase;
+}
+.shadowCard {
+  -webkit-box-shadow: 5px 5px 15px 5px #A3A3A3; 
+  box-shadow: 5px 5px 15px 5px #A3A3A3;
+}
+.btnGoBack {
+  margin-left: 20px;
+  background-color:rgb(255, 89, 89);
+  color: black;
+  border-radius: 10px;
+  border: none;
+}
+.span {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(255, 89, 89);
+}
+.btnViewPoke{
+  background-color:rgb(255, 89, 89);
+  color: black;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+}
