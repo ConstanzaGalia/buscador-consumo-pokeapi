@@ -77,3 +77,11 @@
   border: none;
   margin-top: 10px;
 }
+.footer {
+  height: 60px;
+  background-color: rgb(255, 89, 89);
+}
+.h4Footer{
+  text-align: center;
+  margin-top:20px;
+}

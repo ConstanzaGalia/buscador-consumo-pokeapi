@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import PokeSection from "./PokeSection";
 import DetailPokemon from "./DetailPokemon";
 import {
@@ -21,6 +22,7 @@ const Pokemones = () => {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </>
   );
 };
